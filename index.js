@@ -1,23 +1,15 @@
-// it's node application
-// packagelist: inqurer || process.argv
-    // questions from the user -
-            //repo link
-            //title
-            //sections
-            //entitles descriptions
-            //table of contents
-            //installation
-            //usage
-            //license
-            //github username
-            //email
-            //tests (how to test it)
-            //questions
+const inquirer = require("inquirer");
+const fs = require("fs");
+const generateMarkdown = require("./utils/generateMarkdown");
 
 // array of questions for user
 const questions = [
-
-];
+    {
+        type: "input",
+        message: "What is your GitHub username?",
+        name: "username",
+    },
+    ];
 
 // function to write README file
 function writeToFile(fileName, data) {
@@ -30,4 +22,5 @@ function init() {
 
 // function call to initialize program
 init();
+
 
