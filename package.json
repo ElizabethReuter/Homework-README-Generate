@@ -10,5 +10,15 @@
   "license": "ISC",
   "dependencies": {
     "inquirer": "^6.3.1"
-  }
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ElizabethReuter/Homework-README-Generate.git"
+  },
+  "keywords": [],
+  "bugs": {
+    "url": "https://github.com/ElizabethReuter/Homework-README-Generate/issues"
+  },
+  "homepage": "https://github.com/ElizabethReuter/Homework-README-Generate#readme"
 }
