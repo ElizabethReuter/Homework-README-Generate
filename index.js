@@ -9,6 +9,52 @@ const questions = [
         message: "What is your GitHub username?",
         name: "username",
     },
+    {
+        type: "input",
+        message: "What is your GitHub Repo link?",
+        name: "link",
+    }
+    {
+        type: "input",
+        message: "What is your project title?",
+        name: "title",
+    }
+    {
+        type: "input",
+        message: "What is your email?",
+        name: "email",
+    }
+    {
+        type: "input",
+        message: "License:",
+        name: "license",
+    }
+    {
+        type: "input",
+        message: "Description:",
+        name: "description",
+    }
+    {
+        type: "input",
+        message: "Usage:",
+        name: "usage",
+    }
+    {
+        type: "input",
+        message: "Installation:",
+        name: "installation",
+    }
+    {
+        type: "input",
+        message: "Tests:",
+        name: "tests",
+    }
+    {
+        type: "input",
+        message: "Questions:",
+        name: "questions",
+    }
+
     ];
 
 // function to write README file
