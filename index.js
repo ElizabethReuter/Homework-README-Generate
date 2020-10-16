@@ -18,11 +18,18 @@ function writeToFile(fileName, data) {
             throw "err";
             console.log("err");
         }
+        console.log("Success");
       })
 }
 
 // function to initialize program
 function init() {
+    inquirer
+    .prompt(questions)
+    .then(function(response) {
+        const markdown = generateMarkdown(userInput);
+        writeToFile("readme.md", markdown(response));
+    });
 
 }
 
