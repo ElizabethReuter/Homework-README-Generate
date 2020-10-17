@@ -1,4 +1,4 @@
-# README Generator
+# test
 
     ## Table of Contents
   - [Instalation](#instalation)
@@ -8,15 +8,15 @@
   - [Tests](#tests)
   
 ## GitHub-Username
-ElizabethReuter
+Elizabeth
 ## GitHub-Repo-Link
-github.com/hw-7
+test
 ## Title
-README Generator
+test
 ## Email
-elizabeth.j.reuter@gmail.com
+test
 ## License
-MIT
+test
 ## Description
 test
 ## Usage
